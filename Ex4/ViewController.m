@@ -11,6 +11,8 @@
 #import "FailedBankInfo.h"
 #import "FailedBankDatabase.h"
 
+#import "DetailsViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -56,4 +58,15 @@
     return cell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"Details"])
+    {
+        UITableViewCell *cell = (UITableViewCell*)sender;
+        NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
+        FailedBankInfo* failedBankInfo = [self.failedBankInfos objectAtIndex:indexPath.row];
+        DetailsViewController* detailsViewController = segue.destinationViewController;
+        detailsViewController.uniqueId = failedBankInfo.uniqueId;
+    }
+}
 @end

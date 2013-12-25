@@ -25,6 +25,8 @@
 		BA65080F186AFEAC0074D87A /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65080E186AFEAC0074D87A /* FailedBankInfo.m */; };
 		BA650812186AFF310074D87A /* FailedBankDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA650811186AFF310074D87A /* FailedBankDatabase.m */; };
 		BA650814186B00790074D87A /* banklist.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = BA650813186B00700074D87A /* banklist.sqlite3 */; };
+		BA650817186B01080074D87A /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = BA650816186B01070074D87A /* FailedBankDetails.m */; };
+		BA65081A186B01D10074D87A /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA650819186B01D10074D87A /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		BA650810186AFF310074D87A /* FailedBankDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDatabase.h; sourceTree = "<group>"; };
 		BA650811186AFF310074D87A /* FailedBankDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDatabase.m; sourceTree = "<group>"; };
 		BA650813186B00700074D87A /* banklist.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = banklist.sqlite3; sourceTree = "<group>"; };
+		BA650815186B01070074D87A /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		BA650816186B01070074D87A /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		BA650818186B01D10074D87A /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		BA650819186B01D10074D87A /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,10 @@
 				BA65080E186AFEAC0074D87A /* FailedBankInfo.m */,
 				BA650810186AFF310074D87A /* FailedBankDatabase.h */,
 				BA650811186AFF310074D87A /* FailedBankDatabase.m */,
+				BA650815186B01070074D87A /* FailedBankDetails.h */,
+				BA650816186B01070074D87A /* FailedBankDetails.m */,
+				BA650818186B01D10074D87A /* DetailsViewController.h */,
+				BA650819186B01D10074D87A /* DetailsViewController.m */,
 			);
 			path = Ex4;
 			sourceTree = "<group>";
@@ -268,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA650812186AFF310074D87A /* FailedBankDatabase.m in Sources */,
+				BA650817186B01080074D87A /* FailedBankDetails.m in Sources */,
 				BA65080F186AFEAC0074D87A /* FailedBankInfo.m in Sources */,
 				BA6507ED186AF4D10074D87A /* ViewController.m in Sources */,
+				BA65081A186B01D10074D87A /* DetailsViewController.m in Sources */,
 				BA6507E7186AF4D10074D87A /* AppDelegate.m in Sources */,
 				BA6507E3186AF4D10074D87A /* main.m in Sources */,
 			);
